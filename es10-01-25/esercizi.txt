@@ -1,0 +1,26 @@
+1. Si scriva una funzione che data una lista conta quanti sono i numeri pari o dispari
+2. Si scriva una funzione che conti le vocali di una stringa
+3. Si scriva una funzione che calcola la somma e la differenza di due numeri utilizzando i puntatori
+4. Si scriva una funzione che determina quali numeri di una lista sono divisibili per un intero dato
+5. Calcola la media di 10 elementi (while e for)
+6. Si scriva una funzione “rollup” che riceve in input una lista l di lunghezza n (con n pari) e 
+    restituisce una lista di lunghezza n/2 il cui i-esimo elemento è pari a l[2*i]+l[2*i+1]. Si invochi 
+    inoltre la funzione sulla lista [1, 3, 6, 1, 6, 3, 8, 9] e se ne discutano i risultati.
+7. Si scriva una programma che alloca e legge un  vettore e verifica che tutti gli elementi in posizione pari sono maggiori di 18.
+8. Si scriva una programma che legge 2  vettori, e costruisce un terzo vettore, che è composto interponendo gli elementi dei primi due
+    (i due vettori hanno uguale dimensione).
+    v1 = 1 3 5 7
+    v2 = 2 4 6 8
+    v3 = 1 2 3 4 5 6 7 8
+9. Si scriva una funzione che calcola la somma la somma tra due matrici
+10. Si scriva una funzione trovaMax che trovi il massimo e la posizione del massimo in vettori di double.
+11. Si scriva una funzione che cerca un elemento in un vettore.
+12. Si scriva una funzione che calcoli il fibonacci in maniera iterativa 
+13. Si scriva un programma che attraverso la funzione random resituisca la frequenza dei primi 6 numeri
+ 
+
+Ricorsione:
+
+Fattoriale in maniera ricorsiva
+Fibonacci in maniera ricorsiva
+Somma delle cifre di un numero
