@@ -1,0 +1,21 @@
+1. Si scriva una programma che alloca e legge un  vettore e verifica che tutti gli elementi in posizione pari sono maggiori di 10.
+2. Si scriva un programma che attraverso la funzione random resituisca la frequenza dei primi 6 numeri
+3. Si scriva una funzione che dato un vettore restituisce il massimo tra la somma degli elementi in posizione pari e quella dei numeri dispari
+4. Si scriva una funzione che calcola il prodotto tra due matrici
+5. Scrivere un programma in C per la gestione di matrici di double, che contenga i seguenti metodi:
+    Una funzione create, che riceve due interi (dimensione di righe e colonne), crea una matrice delle dimensioni indicate, e restituisce il suo puntatore.
+    Un metodo erase, che azzera tutti gli elementi della matrice.
+    Un metodo read per la lettura di una matrice da tastiera.
+    Un metodo print per la stampa della matrice su output.
+    Un metodo media_tutti_positivi che restituisce (in maniera opportuna usando i puntatori) la media di tutta la matrice e una booleana che risulta vera se
+    la matrice è composta da elementi tutti positivi.
+6. Scrivere un programma in C per la gestione di matrici di float, che contenga i seguenti metodi:
+    Una funzione create, che riceve due interi (dimensione di righe e colonne), crea una matrice delle dimensioni indicate, e restituisce il suo puntatore.
+    Un metodo read per la lettura di una matrice da tastiera.
+    Un metodo print per la stampa della matrice su output.
+    Un metodo punto_di_sella che restituisce (in maniera opportuna usando i puntatori) il valore, la riga e la colonna del primo punto
+    di sella presente nella matrice.
+    Si definisce punto di sella un elemento m[i,j] tale che esso risulti essere contemporaneamente il massimo fra tutti gli elementi
+    della riga i-esima e il minimo fra tutti gli elementi della colonna j-esima oppure risulti essere contemporaneamente
+    il minimo fra tutti gli elementi della riga i-esima e il massimo fra tutti gli elementi della colonna j-esima.  Il metodo ritorna false se non esistono punti di sella. Si consiglia di trovare tutti i massimi di una colonna e metterli in un vettore e fare lo stesso per i minimi delle righe. 
+    Il metodo main che dichiara e alloca la matrice  e invoca opportunamente i metodi precedenti.
