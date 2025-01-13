@@ -1,0 +1,10 @@
+Scrivere un programma in C che permetta di gestire un registro di studenti, ogni studente ha un nome, un età e una lista dinamica di voti. Il programma deve 
+permettere di:
+Inserire un nuovo studente con i dati
+Aggiungere un voto ad uno studente specifico
+Stampare i dati di tutti gli studenti, ivi inclusa la media dei voti
+liberare correttamente la memoria allocata dinamicamente prima della chiusura del programma
+Utilizzare:
+Si deve utilizzare un array dinamico di struct per rappresentare il registro degli studenti(ogni struct uno studente) 
+array dinamico per i voti di ciascuno studente 
+
