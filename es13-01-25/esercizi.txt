@@ -1,6 +1,6 @@
 1. Si scriva una programma che alloca e legge un  vettore e verifica che tutti gli elementi in posizione pari sono maggiori di 10.
 2. Si scriva un programma che attraverso la funzione random resituisca la frequenza dei primi 6 numeri
-3. Si scriva una funzione che dato un vettore restituisce il massimo tra la somma degli elementi in posizione pari e quella dei numeri dispari
+3. Si scriva una funzione che dato un vettore restituisce true se la somma degli elementi pari è maggiore della somma degli elementi dispari
 4. Si scriva una funzione che calcola il prodotto tra due matrici
 5. Scrivere un programma in C per la gestione di matrici di double, che contenga i seguenti metodi:
     Una funzione create, che riceve due interi (dimensione di righe e colonne), crea una matrice delle dimensioni indicate, e restituisce il suo puntatore.
