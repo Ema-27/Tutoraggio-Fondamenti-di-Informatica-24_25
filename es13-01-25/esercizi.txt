@@ -2,12 +2,11 @@
 2. Si scriva un programma che attraverso la funzione random resituisca la frequenza dei primi 6 numeri
 3. Si scriva una funzione che dato un vettore restituisce true se la somma degli elementi pari è maggiore della somma degli elementi dispari
 4. Si scriva una funzione che calcola il prodotto tra due matrici
+5. Scrivere un programma C che utilizzando le struct generi un tipo punto formato dalle coordinate x e y, e un tipo cerchio formato dal centro(punto) e dal raggio
+
 
 Ricorsione:
 Calcolare la somma delle cifre di un numero //123456
 Calcolare la somma degli elementi di un array.
 Scrivere una funzione ricorsiva per invertire una stringa.
-Scrivere una funzione ricorsiva che verifica se un array di numeri interi è palindromo (cioè, se è uguale se letto da sinistra a destra e da destra a sinistra).
 
-
-5. Scrivere un programma C che utilizzando le struct generi un tipo punto formato dalle coordinate x e y, e un tipo cerchio formato dal centro(punto) e dal raggio

@@ -25,6 +25,8 @@ typedef struct{
 
 typedef Studente Registro;
 
+float calcolaMedia(int *, int);
+
 Studente *aggiungiStudente(Registro *studenti, int *num_studenti, char *nome, int eta ){
     studenti = realloc(studenti, (*num_studenti + 1)*sizeof(Studente));
     if(!studenti){
@@ -75,7 +77,17 @@ void stampaStudenti(Registro *studenti, int num_studenti){
         for(int j=0; j< studenti[i].num_voti; j++){
             printf("%d \n", studenti[i].voti[j]);
         }
+        printf("\n Media voti: %.2f \n\n", calcolaMedia(studenti[i].voti, studenti[i].num_voti));
     }
+}
+
+float calcolaMedia(int *voti, int num_voti){
+    if(num_voti == 0) return 0.0;
+    int somma=0;
+    for(int i=0; i<num_voti; i++){
+        somma+= voti[i];
+    }
+    return somma / (float)num_voti;
 }
 
 void liberaMem(Registro *studenti, int num_studenti){
@@ -93,6 +105,7 @@ int main(){
     studenti = aggiungiStudente( studenti, &num_studenti, "Luigi  Bianchi", 25 );
 
     aggiungiVoto( studenti, num_studenti, "Mario Rossi", 28);
+    aggiungiVoto( studenti, num_studenti, "Mario Rossi", 30);
 
     aggiungiVoto( studenti, num_studenti, "Luigi  Bianchi", 18);
 
