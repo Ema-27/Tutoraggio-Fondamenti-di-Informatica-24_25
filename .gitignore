@@ -1,3 +1,4 @@
 Output/
 *.o
 .vscode
+*.exe
