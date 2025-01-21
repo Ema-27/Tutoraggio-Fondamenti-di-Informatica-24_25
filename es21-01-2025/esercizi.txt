@@ -33,3 +33,4 @@ Esempio:
     Stampare l'inventario, mostrando la media dei prezzi storici per ogni prodotto.
     Liberare la memoria allocata.
 
+Scrivere una funzione ricorsiva per invertire una stringa.
