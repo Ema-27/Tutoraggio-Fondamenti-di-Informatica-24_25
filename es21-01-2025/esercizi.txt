@@ -1,0 +1,91 @@
+1) esercizi traccia esame
+
+2) Esercizio 2.1
+Scrivi una funzione sommaMultipli(int *arr, int n, int k) che riceve in ingresso un array di interi arr di lunghezza n e un numero intero k. 
+La funzione restituisce la somma di tutti gli elementi di arr che sono multipli di k.
+Esempio:
+
+    Input: arr = [3, 6, 8, 12], n = 4, k = 3
+    Output: 21
+
+3)Scrivi una funzione intersezioneArray(int *A, int *B, int nA, int nB) che riceve in ingresso due array A e B di lunghezze rispettive nA e nB.
+ La funzione restituisce un array contenente gli elementi comuni ai due array, senza duplicati.
+Esempio:
+
+    Input: A = [1, 2, 2, 3], B = [2, 3, 4]
+    Output: [2, 3]
+
+4)Scrivere un programma per gestire un inventario di prodotti. Ogni prodotto è rappresentato da una struct che contiene il nome del prodotto,
+ la quantità disponibile e un array dinamico di prezzi storici. Il programma deve permettere di:
+
+    Aggiungere un nuovo prodotto.
+    Aggiornare il prezzo corrente di un prodotto.
+    Stampare l'inventario, mostrando la media dei prezzi storici per ogni prodotto.
+    Liberare la memoria allocata.
+
+5)Scrivere un programma per gestire un sistema di prenotazioni per una sala conferenze. Ogni prenotazione è rappresentata da una struct
+ contenente il nome del cliente, la data (in formato stringa) e un array dinamico di servizi richiesti (ognuno rappresentato da una stringa).
+ Il programma deve permettere di:
+
+    Aggiungere una nuova prenotazione.
+    Aggiungere un servizio a una prenotazione esistente.
+    Stampare tutte le prenotazioni, includendo i servizi richiesti.
+    Liberare la memoria allocata.
+
+6)Scrivere un programma per gestire i dipendenti di un'azienda. Ogni dipendente è rappresentato da una struct contenente nome, 
+età e un array dinamico di progetti completati (ognuno rappresentato da una stringa). Il programma deve permettere di:
+
+    Aggiungere un nuovo dipendente.
+    Aggiungere un progetto completato a un dipendente.
+    Stampare l'elenco di tutti i dipendenti, includendo i progetti completati.
+    Liberare la memoria allocata.
+
+Se desideri un esempio dettagliato per uno di questi esercizi, fammi sapere!
+
+7)Gestione di un sistema bibliotecario
+
+Un programma deve gestire un sistema di informazioni sui libri in una biblioteca. I dati sono organizzati come segue:
+
+    Struct Libro
+    Contiene:
+        char titolo[50]: il titolo del libro.
+        char autore[50]: il nome dell'autore.
+        int anno: l'anno di pubblicazione.
+
+    Struct Biblioteca
+    Contiene:
+        Un array di libri dinamico Libro *libri.
+        Un intero numLibri che rappresenta il numero di libri presenti.
+
+Scrivere un programma che includa le seguenti funzionalità:
+
+    Aggiungere un nuovo libro alla biblioteca.
+    Contare quanti libri sono stati pubblicati da un autore specifico.
+    Trovare tutti i libri pubblicati in un determinato intervallo di anni.
+    Stampare l'intero catalogo della biblioteca.
+    Liberare correttamente la memoria allocata dinamicamente.
+
+8) Gestione di un sistema di prenotazioni aeree
+
+Un programma deve gestire le informazioni relative ai voli e ai passeggeri di una compagnia aerea. I dati sono organizzati come segue:
+
+    Struct Passeggero
+    Contiene:
+        char nome[50]: il nome del passeggero.
+        int eta: l'età del passeggero.
+        char classe[20]: la classe del volo (es. "Economy", "Business").
+
+    Struct Volo
+    Contiene:
+        char codice[10]: il codice identificativo del volo (es. "AZ1234").
+        char destinazione[50]: la destinazione del volo.
+        Un array dinamico di passeggeri Passeggero *passeggeri.
+        Un intero numPasseggeri che rappresenta il numero di passeggeri registrati.
+
+Scrivere un programma che includa le seguenti funzionalità:
+
+    Aggiungere un nuovo volo al sistema.
+    Registrare un passeggero per un volo specifico.
+    Stampare l’elenco dei passeggeri per un determinato volo.
+    Determinare quale volo ha il maggior numero di passeggeri in classe "Business".
+    Liberare correttamente la memoria allocata dinamicamente.
