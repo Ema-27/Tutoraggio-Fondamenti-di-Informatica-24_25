@@ -50,13 +50,7 @@ Esempio:
     Input: arr = [1, 2, 2, 3, 3, 4]
     Output: [1, 2, 3, 4], nUnici = 4.
 
-3)Scrivere una funzione elementiFrequenti(int *arr, int n, int soglia, int *nFrequenti) che restituisce gli elementi che appaiono 
-più volte della soglia.
 
-Esempio:
-
-    Input: arr = [1, 2, 2, 3, 3, 3, 4], soglia = 2
-    Output: [2, 3], nFrequenti = 2.
 
 
 
