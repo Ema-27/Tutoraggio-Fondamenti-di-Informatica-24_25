@@ -33,30 +33,30 @@ Scrivere un programma che includa le seguenti funzionalità:
     Stampare l'intero catalogo della biblioteca.
     Liberare correttamente la memoria allocata dinamicamente.
 
-7) Gestione di un sistema di prenotazioni aeree
 
-Un programma deve gestire le informazioni relative ai voli e ai passeggeri di una compagnia aerea. I dati sono organizzati come segue:
+1)Scrivere una funzione differenzaMassima(int *arr, int n) che restituisce la differenza massima tra due elementi dell'array. 
+La differenza è calcolata come |arr[i] - arr[j]| per ogni coppia (i, j).
 
-    Struct Passeggero
-    Contiene:
-        char nome[50]: il nome del passeggero.
-        int eta: l'età del passeggero.
-        char classe[20]: la classe del volo (es. "Economy", "Business").
+Esempio:
 
-    Struct Volo
-    Contiene:
-        char codice[10]: il codice identificativo del volo (es. "AZ1234").
-        char destinazione[50]: la destinazione del volo.
-        Un array dinamico di passeggeri Passeggero *passeggeri.
-        Un intero numPasseggeri che rappresenta il numero di passeggeri registrati.
+    Input: arr = [2, 7, 3, 10]
+    Output: 8 (|10 - 2| = 8).
 
-Scrivere un programma che includa le seguenti funzionalità:
+2)Scrivere una funzione rimuoviDuplicati(int *arr, int n, int *nUnici) che restituisce un array con elementi unici.
+Aggiorna nUnici con la lunghezza del nuovo array.
 
-    Aggiungere un nuovo volo al sistema.
-    Registrare un passeggero per un volo specifico.
-    Stampare l’elenco dei passeggeri per un determinato volo.
-    Determinare quale volo ha il maggior numero di passeggeri in classe "Business".
-    Liberare correttamente la memoria allocata dinamicamente.
+Esempio:
+
+    Input: arr = [1, 2, 2, 3, 3, 4]
+    Output: [1, 2, 3, 4], nUnici = 4.
+
+3)Scrivere una funzione elementiFrequenti(int *arr, int n, int soglia, int *nFrequenti) che restituisce gli elementi che appaiono 
+più volte della soglia.
+
+Esempio:
+
+    Input: arr = [1, 2, 2, 3, 3, 3, 4], soglia = 2
+    Output: [2, 3], nFrequenti = 2.
 
 
 
@@ -65,4 +65,4 @@ Scrivere una funzione ricorsiva che verifica se un array di numeri interi è pal
 (cioè, se è uguale se letto da sinistra a destra e da destra a sinistra).
 Calcolare la potenza a^b utilizzando la ricorsione.
 Scrivere una funzione ricorsiva che, dato un array di numeri interi e un valore x, conta il numero di elementi nell'array che sono maggiori di x.
-Scrivere una funzione ricorsiva che, data una matrice quadrata, calcola la somma degli elementi sulla diagonale principale (elementi m[i][i]).
+
