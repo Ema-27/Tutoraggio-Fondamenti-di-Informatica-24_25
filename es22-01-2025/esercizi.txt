@@ -1,0 +1,68 @@
+
+5)Scrivere un programma per gestire un sistema di prenotazioni per una sala conferenze. Ogni prenotazione è rappresentata da una struct
+ contenente il nome del cliente, la data (in formato stringa) e un array dinamico di servizi richiesti (ognuno rappresentato da una stringa).
+ Il programma deve permettere di:
+
+    Aggiungere una nuova prenotazione.
+    Aggiungere un servizio a una prenotazione esistente.
+    Stampare tutte le prenotazioni, includendo i servizi richiesti.
+    Liberare la memoria allocata.
+
+
+
+6)Gestione di un sistema bibliotecario
+
+Un programma deve gestire un sistema di informazioni sui libri in una biblioteca. I dati sono organizzati come segue:
+
+    Struct Libro
+    Contiene:
+        char titolo[50]: il titolo del libro.
+        char autore[50]: il nome dell'autore.
+        int anno: l'anno di pubblicazione.
+
+    Struct Biblioteca
+    Contiene:
+        Un array di libri dinamico Libro *libri.
+        Un intero numLibri che rappresenta il numero di libri presenti.
+
+Scrivere un programma che includa le seguenti funzionalità:
+
+    Aggiungere un nuovo libro alla biblioteca.
+    Contare quanti libri sono stati pubblicati da un autore specifico.
+    Trovare tutti i libri pubblicati in un determinato intervallo di anni.
+    Stampare l'intero catalogo della biblioteca.
+    Liberare correttamente la memoria allocata dinamicamente.
+
+7) Gestione di un sistema di prenotazioni aeree
+
+Un programma deve gestire le informazioni relative ai voli e ai passeggeri di una compagnia aerea. I dati sono organizzati come segue:
+
+    Struct Passeggero
+    Contiene:
+        char nome[50]: il nome del passeggero.
+        int eta: l'età del passeggero.
+        char classe[20]: la classe del volo (es. "Economy", "Business").
+
+    Struct Volo
+    Contiene:
+        char codice[10]: il codice identificativo del volo (es. "AZ1234").
+        char destinazione[50]: la destinazione del volo.
+        Un array dinamico di passeggeri Passeggero *passeggeri.
+        Un intero numPasseggeri che rappresenta il numero di passeggeri registrati.
+
+Scrivere un programma che includa le seguenti funzionalità:
+
+    Aggiungere un nuovo volo al sistema.
+    Registrare un passeggero per un volo specifico.
+    Stampare l’elenco dei passeggeri per un determinato volo.
+    Determinare quale volo ha il maggior numero di passeggeri in classe "Business".
+    Liberare correttamente la memoria allocata dinamicamente.
+
+
+
+Ricorsione:
+Scrivere una funzione ricorsiva che verifica se un array di numeri interi è palindromo 
+(cioè, se è uguale se letto da sinistra a destra e da destra a sinistra).
+Calcolare la potenza a^b utilizzando la ricorsione.
+Scrivere una funzione ricorsiva che, dato un array di numeri interi e un valore x, conta il numero di elementi nell'array che sono maggiori di x.
+Scrivere una funzione ricorsiva che, data una matrice quadrata, calcola la somma degli elementi sulla diagonale principale (elementi m[i][i]).
