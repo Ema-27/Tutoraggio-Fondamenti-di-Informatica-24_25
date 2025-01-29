@@ -8,32 +8,6 @@ età e un array dinamico di progetti completati (ognuno rappresentato da una str
     Stampare l'elenco di tutti i dipendenti, includendo i progetti completati.
     Liberare la memoria allocata.
 
-2) Gestione di un sistema di prenotazioni aeree
-
-Un programma deve gestire le informazioni relative ai voli e ai passeggeri di una compagnia aerea. I dati sono organizzati come segue:
-
-    Struct Passeggero
-    Contiene:
-        char nome[50]: il nome del passeggero.
-        int eta: l'età del passeggero.
-        char classe[20]: la classe del volo (es. "Economy", "Business").
-
-    Struct Volo
-    Contiene:
-        char codice[10]: il codice identificativo del volo (es. "AZ1234").
-        char destinazione[50]: la destinazione del volo.
-        Un array dinamico di passeggeri Passeggero *passeggeri.
-        Un intero numPasseggeri che rappresenta il numero di passeggeri registrati.
-
-Scrivere un programma che includa le seguenti funzionalità:
-
-    Aggiungere un nuovo volo al sistema.
-    Registrare un passeggero per un volo specifico.
-    Stampare l’elenco dei passeggeri per un determinato volo.
-    Determinare quale volo ha il maggior numero di passeggeri in classe "Business".
-    Liberare correttamente la memoria allocata dinamicamente.
-
-
 
 
 Ricorsione:
