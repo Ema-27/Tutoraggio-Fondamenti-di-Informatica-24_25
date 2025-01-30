@@ -1,5 +1,4 @@
 1)
-
 #include <stdio.h>
 
 int main() {
@@ -24,8 +23,13 @@ int main() {
     return 0;
 }
 
-Si descriva sinteticamente la funzione svolta dal brano. Si discuta inoltre l’effetto che si otterrebbe 
-utilizzando nell’if la condizione alternativa “lista[i] > lista[-1-i]”. 
+Si descriva sinteticamente la funzione svolta dal brano.
+
+Il brano verifica se gli elementi nella prima metà sono minori dei corrispondenti elementi speculari nella seconda metà della lista
+Il brano stamperà OK perchè lista[0]<lista[5], lista[1]<lista[4] e così via.
+
+
+
 
 ----------------------------------------------------------------
 2)
@@ -54,6 +58,9 @@ int main() {
 
 Si descriva sinteticamente la funzione svolta dal brano. 
 
+Il codice verifica se la lista di Lunghezza d è palindroma, cioè il primo elemento è uguale all'ultimo (v[0]==v[d-1]), 
+il secondo al penultimo (V[1]==v[d-2]) e così via.
+Il codice stamperà NO perchè la condizione non è rispettata: il valore 3 è diverso dal valore 6.
 -----------------------------------------------------------------
 
 3)
@@ -77,6 +84,13 @@ int main() {
 }
 
 Si descriva sinteticamente la funzione svolta dal brano. 
+
+Il codice stampa gli elementi della lista che rispettano una delle seguenti condizioni:
+-essere pari e in posizione pari
+-essere dispari e in posizione dispari
+
+il codice stamperà 4,7,2,3 in quanto lista[0]==3 val. disp. in pos. pari, lista[1]==2 viceversa a prima, lista[2]==4 la condizione è rispettata
+pertanto verrà stampato 4... e così via
 
 -----------------------------------------------------------------
 
@@ -111,6 +125,9 @@ int main() {
 }
 
 Si descriva sinteticamente la funzione svolta dal brano. 
+
+Il codice verifica che ogni elemento della lista y sia divisibile per l'elemento speculare della lista x. L'outup sarà 1,1,1,1 
+in quanto 8%4==0, 20%5==0 e così via.
 
 -----------------------------------------------------------------
 
@@ -150,3 +167,9 @@ int main() {
 
 Si descriva sinteticamente il comportamento della funzione “funzione_esercizio(x, l)” e si indichino 
 gli output prodotti dal brano. 
+
+La funzione verifica quali elementi della lista l sono divisibili per x, in particolare se l'i-esimo elemento della lista è divisibile per x 
+viene posto pari quoziente della divisione, altrimenti viene posto pari a 0.
+Il brano stampa gli elementi diversi da 0 della lista ottenuta
+
+l'output è: 3  -> (9/3), 2(6/3) e 5(15/3)

@@ -9,7 +9,11 @@ età e un array dinamico di progetti completati (ognuno rappresentato da una str
     Liberare la memoria allocata.
 
 
+2)Scrivere una funzione elementiFrequenti(int *arr, int n, int soglia, int *nFrequenti) che restituisce gli elementi che appaiono 
+più volte della soglia.
 
-Ricorsione:
+Esempio:
 
-Scrivere una funzione ricorsiva che, data una matrice quadrata, calcola la somma degli elementi sulla diagonale principale (elementi m[i][i]).
+    Input: arr = [1, 2, 2, 3, 3, 3, 4], soglia = 2
+    Output: [2, 3], nFrequenti = 2.
+
