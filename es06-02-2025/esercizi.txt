@@ -1,0 +1,22 @@
+Traccia Esame
+
+
+Esercizio 1:
+
+Il programma prende in input un vettore e la sua dimensione e restituisce la somma dei
+numeri nel vettore che rispettano le seguenti condizioni:
+ Il numero è maggiore di 1
+  L'iterazione avviene dall'ultimo al primo elemento del vettore.
+ Traccia d'esecuzione:
+  main()
+      -> f2(v,6)  (a = 0)
+          -> f1(28)   (28 = 1 + 2 + 4 + 7 + 14)
+        (a = 0 + 28 = 28)
+          -> f1(43)   (43 != 1)
+          -> f1(15)   (15 != 1 + 3 + 5)
+          -> f1(6)    (6 = 1 + 2 + 3)
+         (a = 28 + 6 = 34)
+          -> f1(1)
+          -> f1(3)    (3 != 1)
+         return a (34)
+  print(34)
